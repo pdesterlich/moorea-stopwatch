@@ -1,0 +1,22 @@
+{
+  "name": "moorea-stopwatch",
+  "version": "0.1.0",
+  "description": "very simple stopwatch class for logging purposes",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "node",
+    "stopwatch",
+    "timer"
+  ],
+  "author": "Phelipe de Sterlich <p.desterlich@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.3.0"
+  }
+}
