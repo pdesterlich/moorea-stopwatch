@@ -1,5 +1,7 @@
 # moorea-stopwatch
 
+[![Dependency Status](https://david-dm.org/pdesterlich/moorea-stopwatch.svg?theme=shields.io)](https://david-dm.org/pdesterlich/moorea-stopwatch) [![devDependency Status](https://david-dm.org/pdesterlich/moorea-stopwatch/dev-status.svg?theme=shields.io)](https://david-dm.org/pdesterlich/moorea-stopwatch#info=devDependencies)
+
 very simple stopwatch class for logging purposes
 
 ## Usage
