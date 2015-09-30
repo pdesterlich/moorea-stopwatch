@@ -1,6 +1,6 @@
 {
   "name": "moorea-stopwatch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "very simple stopwatch class for logging purposes",
   "main": "index.js",
   "directories": {
