@@ -1,17 +1,17 @@
 'use strict';
 
-var stopWatch = function () {
+var StopWatch = function () {
 
-  var timerStart;
-};
-
-stopWatch.prototype.start = function () {
   this.timerStart = process.hrtime();
 };
 
-stopWatch.prototype.elapsed = function () {
+StopWatch.prototype.start = function () {
+  this.timerStart = process.hrtime();
+};
+
+StopWatch.prototype.elapsed = function () {
   var diff = process.hrtime(this.timerStart);
   return (diff[0] * 1e3 + diff[1] * 1e-6).toFixed(3);
 };
 
-module.exports = new stopWatch();
+module.exports = StopWatch;

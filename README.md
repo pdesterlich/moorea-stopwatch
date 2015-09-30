@@ -10,9 +10,9 @@ very simple stopwatch class for logging purposes
 'use strict';
 
 var
-  stopWatch = require('moorea-stopwatch');
+  StopWatch = require('moorea-stopwatch');
 
-stopWatch.start();
+var stopWatch = new StopWatch();
 
 // DoSomething(TM)
 
@@ -22,6 +22,6 @@ console.log('elapsed time: ' + elapsed + ' ms');
 
 ## API
 
-`start()` start/restart the stopWatch
+`start()` restart the stopWatch
 
 `elapsed()` return elapsed time in milliseconds
